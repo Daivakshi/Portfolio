@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/devi-image.jpg" type="ico" />
+    <title>DEVI - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resp.css" />
+    <!-- font awessome link -->
+    <script
+      src="https://kit.fontawesome.com/dd0de70807.js"
+      crossorigin="anonymous"></script>
+    <!-- AOS librery -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- ---------------------------------------------------------- -->
+    <!-- <div id="loader-box">
+      <div id="loader"></div>
+    </div>
+    <div class="animate-bottom" id="myDiv"> -->
+    <!-- ---------------------------------------------------------- -->
+
+    <section class="hero flex" id="hero">
+      <div class="container flex">
+        <div class="hero-left flex flex-c align-top">
+          <span
+            class="main-title"
+            data-aos="fade-right"
+            data-aos-easing="ease"
+            data-aos-delay="50"
+            >Hey, I'm <br />
+            <span
+              class="title"
+              data-aos="fade-right"
+              data-aos-easing="ease"
+              data-aos-delay="250"
+              >DEVI VAIDYA</span
+            ></span
+          >
+          <p
+            id="typed"
+            data-aos="fade-right"
+            data-aos-easing="ease"
+            data-aos-delay="450"></p>
+          <a
+            class="resume-btn"
+            href="resume.pdf"
+            download="resume.pdf"
+            data-aos="fade-right"
+            data-aos-easing="ease"
+            data-aos-delay="650"
+            >Download Resume</a
+          >
+          <div class="social-icone flex">
+            <a
+              href="https://github.com/Daivakshi"
+              target="_blank"
+              data-aos="fade-right"
+              data-aos-easing="ease"
+              data-aos-delay="850"
+              ><i class="fa-brands fa-square-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/daivakshivaidya/"
+              target="_blank"
+              data-aos="fade-right"
+              data-aos-easing="ease"
+              data-aos-delay="1050"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img
+            src="image/devi-image.jpg"
+            alt=""
+            data-aos="fade-left"
+            data-aos-easing="ease"
+            data-aos-delay="400" />
+        </div>
+      </div>
+    </section>
+    <!-- navbar -->
+    <header class="header" id="header">
+      <div class="center">
+        <nav class="navbar flex">
+          <!-- Brand -->
+          <ul class="navbar-nav brand">
+            <img
+              src="image/devi-squared.jpg"
+              alt=""
+              class="brand-img"
+              id="brand-img" />
+            <li class="brand-txt" id="brand-txt">
+              <h5 class="brand-title">DEVI VAIDYA</h5>
+              <div class="brand-subtitle">Data Scientist | Developer</div>
+            </li>
+          </ul>
+
+          <!-- Navlist -->
+          <ul class="navlist flex" id="navlist">
+            <li><a href="#hero">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contect">contect</a></li>
+          </ul>
+          <!-- Burger -->
+          <div class="burger" id="burger">
+            <i class="fa-solid fa-bars" id="burger-icon"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- about -->
+    <section class="about flex" id="about">
+      <div class="container reveal flex flex-c">
+        <div class="heading" data-aos="fade-right" data-aos-duration="500">
+          <h1>about me</h1>
+        </div>
+        <div class="row">
+          <div class="info-box">
+            <div class="info-content">
+              <div class="info" data-aos="fade-right" data-aos-duration="500">
+                <p>
+                  I’m Daivakshi, a Toronto-based data & AI enthusiast who loves 
+                  turning messy, real-world data into clear decisions and useful 
+                  products. I build end-to-end solutions—from piping data and 
+                  exploring patterns to training models, A/B testing, and shipping 
+                  dashboards—that actually move the needle for users and teams. I 
+                  care about explainability, iteration, and impact: fewer guesses, 
+                  more evidence, and always learning. When I’m not modeling, I’m 
+                  simplifying insights so anyone can act on them.
+                </p>
+              </div>
+            </div>
+            <div class="info-content">
+              <div
+                class="heading"
+                data-aos="fade-right"
+                data-aos-duration="500">
+                <h2>Experience</h2>
+              </div>
+              <div
+                class="info flex flex-c align-top"
+                data-aos="fade-right"
+                data-aos-duration="500">
+                <h3 class="info-heading">
+                  CIBC, Toronto | Digital & Data Analyst Intern
+                  <br /><span>Sept 2025 - Dec 2025</span>
+                </h3>
+                <ul>
+                  <p>
+                    Applied statistical modeling and A/B testing with Python
+                    (pandas, scipy, statsmodels) to measure the effect of UI/UX
+                    enhancements and targeted campaigns on key KPIs; findings 
+                    informed product changes that improved conversion
+                    rates by ~7% across pilot segments.
+                  </p>
+                  <p>
+                    Built interactive KPI dashboards (conversion, retention, 
+                    attribution) in Adobe Analytics Workspace, surfacing insights 
+                    that supported executive initiatives with potential to 
+                    unlock multi-million-dollar revenue uplift and cost savings 
+                    opportunities.
+                  </p>
+                </ul>
+              </div>
+              <div
+                class="info flex flex-c align-top"
+                data-aos="fade-right"
+                data-aos-duration="500">
+                <h3 class="info-heading">
+                  Omniscient Consulting Inc. | Data Scientist (Market Research)
+                  <br /><span>Mar 2024 - May 2025</span>
+                </h3>
+                <ul>
+                  <p>
+                    Designed and deployed automated marketing analytics pipelines 
+                    using Python (Pandas, NumPy), SQL, and Google Analytics API, 
+                    integrating with BigQuery for real-time data warehousing and 
+                    dashboarding via Tableau and Power BI. Improved insight delivery 
+                    by 45% and reduced processing lag by 60%.
+                  </p>
+                </ul>
+              </div>
+            </div>
+            <div class="info-content">
+              <div
+                class="heading"
+                data-aos="fade-right"
+                data-aos-duration="500">
+                <h2>Skills & Tools</h2>
+              </div>
+              <div
+                class="info flex flex-c justify-start flex-start"
+                id="skills"
+                data-aos="fade-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio -->
+    <section class="portfolio flex" id="portfolio">
+      <div class="container reveal flex flex-c">
+        <div class="heading" data-aos="fade-right" data-aos-duration="500">
+          <h1>MY PORTFOLIO</h1>
+        </div>
+        <div class="project flex" id="project"></div>
+      </div>
+    </section>
+    <!-- contect -->
+    <section class="contect flex" id="contect">
+      <div class="container reveal flex flex-c align-top">
+        <div
+          class="heading"
+          data-aos="fade-right"
+          data-aos-duration="500"
+          id="contect-1">
+          <h1>Get In Touch</h1>
+        </div>
+        <div class="c-box flex align-top">
+          <div class="c-left flex flex-c align-top">
+            <div class="heading" data-aos="fade-left" data-aos-duration="500">
+              <h2>Send Message</h2>
+            </div>
+            <form class="form flex flex-c align-top">
+              <div
+                class="input-field"
+                data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-delay="300">
+                <label for="name">Your name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter Your Name"
+                  autocomplete="off"
+                  required />
+              </div>
+              <div
+                class="input-field"
+                data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-delay="400">
+                <label for="email">Your e-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="name@mail.com"
+                  autocomplete="off"
+                  required />
+              </div>
+              <div
+                class="input-field"
+                data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-delay="500">
+                <label for="message">Your message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="6"
+                  placeholder="Leave a comment...*"
+                  autocomplete="off"
+                  required></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn flex"
+                data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-delay="600"
+                data-aos-offset="20">
+                Send <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+          <div class="c-right flex flex-c">
+            <div
+              class="c-link"
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-delay="300">
+              <div class="c-link-icone">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="c-link-name">E-mail</div>
+              <div class="c-link-address">daivakshi@gmail.com</div>
+            </div>
+            <div
+              class="c-link"
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-delay="400">
+              <div class="c-link-icone">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="c-link-name">Linked In</div>
+              <div class="c-link-address">@daivakshi</div>
+            </div>
+            <div
+              class="c-link"
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-delay="500">
+              <div class="c-link-icone">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="c-link-name">Github</div>
+              <div class="c-link-address">@daivakshi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------- -->
+    <!-- footer -->
+    <footer class="footer flex">
+      <h3>copy right owned by DAIVAKSHI VAIDYA</h3>
+    </footer>
+    <!-- --------------------------------------- -->
+    <!-- scroll button  -->
+    <!-- --------------------------------------- -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- </div> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCVixZvtWbbHZpDRfQTLRVUemrxlnztazw",
+        authDomain: "myportfolio-fb512.firebaseapp.com",
+        projectId: "myportfolio-fb512",
+        storageBucket: "myportfolio-fb512.firebasestorage.app",
+        messagingSenderId: "872139928313",
+        appId: "1:872139928313:web:d829a46b32104070d22828",
+        measurementId: "G-TS73YB0K7B",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
